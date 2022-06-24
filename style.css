@@ -1,0 +1,74 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0px  auto;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    font-weight: bold;
+    box-shadow: inset 1px 2px 5px,
+                inset -1px -2px 5px;
+}
+
+.container::before{
+    content: "";
+    background: url('/images/calc.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.temp{
+    margin-top: 2%;
+    margin-bottom: 1%;
+    /* border: 2px solid blue; */
+}
+.btn{
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 9px;
+    box-shadow: inset 1px 1px 3px 1.5px;
+    margin: 1%;
+    /* border: 2px solid pink; */
+}
+
+
+.number{
+    /* margin-top: 1%; */
+    font-size: 25px;
+    color: white;
+}
+
+
+#add{
+    margin-left: 12%;
+}
+
+#Multiply{
+    margin-left: 39.5%;
+}
+
+
+.sum{
+    font-size: 30px;
+    /* margin-top: 40%; */
+}
+
+#heading{
+    font-size: 40px;
+    margin-bottom: 8%;
+}
